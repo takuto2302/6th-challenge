@@ -15,6 +15,6 @@ public class HelloworldController {
         DateTimeFormatter form =
                 DateTimeFormatter.ofPattern("日本の現在時刻yyyy年MM月dd日E曜日 HH時mm分ss秒");
         String formatNowDate = form.format(nowDate);
-        return (formatNowDate);
+        return formatNowDate;
     }
 }
